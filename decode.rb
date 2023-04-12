@@ -1,6 +1,6 @@
-Morse_code = {
-    '.-' => 'a',
-    '-...' => 'b',
+MORSE = {
+  '.-' => 'a',
+  '-...' => 'b',
   '-.-.' => 'c',
   '-..' => 'd',
   '.' => 'e',
@@ -25,21 +25,21 @@ Morse_code = {
   '-..-' => 'x',
   '-.--' => 'y',
   '--..' => 'z'
-}
+}.freeze
 
 def decode_char(char)
-    Morse_code[char].upcase
+  MORSE[char].upcase
 end
 
 def decode_word(word)
-    word.split.map { |char| decode_char(char) }.join('')
+  word.split.map { |char| decode_char(char) }.join
 end
 
 def decode(sentence)
-    sentence.split('  ').map { |word| decode_word(word) }.join('  ')
+  sentence.split('  ').map { |word| decode_word(word) }.join('  ')
 end
 
-puts decode_char(".-") 
-puts decode_word("-- -.--")
-puts decode("-- -.--   -. .- -- .")
-puts decode(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode_char('.-')
+puts decode_word('-- -.--')
+puts decode('-- -.--   -. .- -- .')
+puts decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
