@@ -18,6 +18,14 @@
 - Twitter: [@Pdurdana_dee](https://twitter.com/durdana_dee)
 - LinkedIn: [@Rita N. Daniel](https://www.linkedin.com/in/rita-daniel/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+   - [ ] We will add numbers and symbols to the hash table
+   - [ ] Decode for file
+   - [ ] Decode for dir
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -26,29 +34,17 @@ Feel free to check the [issues page](https://github.com/RitaDee/decode-a-morse/i
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
-
 ## ⭐️ Show your support <a name="support"></a>
-
 
 If you like this project give it a star ⭐ or buy me a coffee 🍵
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDGEMENTS -->
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
 
 I would like to thank freeCode camp and java point for the documentation and materials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
