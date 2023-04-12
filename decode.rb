@@ -30,10 +30,12 @@ MORSE = {
 def decode_char(char)
   MORSE[char].upcase
 end
+
 # decoding word on the basis decode_char and then character on the basis of mapping hashes
 def decode_word(word)
   word.split.map { |char| decode_char(char) }.join
 end
+
 # decoding santences on the basis decode_sentences decode_char and then character on the basis of mapping hashes
 def decode(sentence)
   sentence.split('  ').map { |word| decode_word(word) }.join('  ')
